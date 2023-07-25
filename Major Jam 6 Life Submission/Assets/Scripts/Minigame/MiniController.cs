@@ -45,12 +45,16 @@ public class MiniController : MonoBehaviour
 
             case miniState.Win:
                 {
+                    myAnim.SetBool("hasWon", true);
+                    myAnim.SetTrigger("Game End");
                     rb.velocity = new Vector2(0, 0);
                     return;
                 }
 
             case miniState.Lose:
                 {
+                    myAnim.SetBool("hasWon", false);
+                    myAnim.SetTrigger("Game End");
                     rb.velocity = new Vector2(0, 0);
                     return;
                 }

@@ -108,10 +108,10 @@ TextureImporter:
       name: heroSpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 34
-        width: 14
-        height: 14
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: heroSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 34
-        width: 14
-        height: 14
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: heroSpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 34
-        width: 14
-        height: 14
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,6 +163,111 @@ TextureImporter:
       bones: []
       spriteID: a1d63b2d94c3a9d4ea2567ea5f4f0de2
       internalID: 1673550792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d13cbe5734da3047b0e842450cd0b87
+      internalID: 2036174553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312ec1fc638675944b34dc5277361c6f
+      internalID: 1884970194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6070fa7c34d924eb4a48156406051b
+      internalID: 1003121316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111efb4dcfd84a542943f5b5cb98f96d
+      internalID: 37612815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365eaf8eba27b2f4dbbb1ff7afdc66c2
+      internalID: 1844575991
       vertices: []
       indices: 
       edges: []
@@ -179,7 +284,12 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       heroSpriteSheet_2: 1673550792
+      heroSpriteSheet_7: 1844575991
       heroSpriteSheet_1: -1826259975
+      heroSpriteSheet_4: 1884970194
+      heroSpriteSheet_5: 1003121316
+      heroSpriteSheet_3: 2036174553
+      heroSpriteSheet_6: 37612815
       heroSpriteSheet_0: -202281624
   spritePackingTag: 
   pSDRemoveMatte: 0

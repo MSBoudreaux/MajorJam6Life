@@ -342,7 +342,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -530,6 +530,7 @@ MonoBehaviour:
   overworldUI: {fileID: 1233699839}
   currentHealth: 0
   win: 0
+  player2D: {fileID: 0}
 --- !u!1 &414121355
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1327953437
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1579,8 +1580,7 @@ PrefabInstance:
     - target: {fileID: 728594583, guid: 2a56ca71af5260241a3cd876738fc365, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 01df9940d14bbf9499005e44136513cd,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 749466910869226846, guid: 2a56ca71af5260241a3cd876738fc365,
         type: 3}
       propertyPath: m_Pivot.x
