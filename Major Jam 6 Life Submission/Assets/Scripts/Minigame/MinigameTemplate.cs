@@ -8,5 +8,12 @@ public class MinigameTemplate
     public string goal;
     public float duration;
     public GameObject minigamePrefab;
+    public Goal myGoal;
+
+    public enum Goal
+    {
+        Timed,
+        ReachEnd
+    }
 
 }

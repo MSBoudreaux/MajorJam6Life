@@ -71,8 +71,16 @@ public class MiniController : MonoBehaviour
             myManager.currentHealth--;
             if (myManager.currentHealth == 0)
             {
-                myManager.EndMinigame();
+                myManager.EndMinigame(false);
             }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Finish") && myManager.currentGame.myGoal == MinigameTemplate.Goal.ReachEnd)
+        {
+            myManager.EndMinigame(true);
         }
     }
 

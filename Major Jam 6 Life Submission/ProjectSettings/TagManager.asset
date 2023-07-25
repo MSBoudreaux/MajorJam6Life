@@ -42,3 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: bgSprite
+    uniqueID: 3447714881
+    locked: 0
+  - name: envSprite
+    uniqueID: 1634244243
+    locked: 0
+  - name: playerSprite
+    uniqueID: 968107271
+    locked: 0
