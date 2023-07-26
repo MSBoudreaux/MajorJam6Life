@@ -10,8 +10,10 @@ public class EmitterScript : MonoBehaviour
     public float bulletSpeed;
     public float shootDelay;
     public Transform emitter;
+    public AnimatorOverrideController animOverride;
     public void Shoot()
     {
+        GetComponent<Animator>().SetTrigger("ShootEvent");
         GameObject bulletToShoot = Instantiate(bullet, emitter.position, Quaternion.Euler(0, 0, angleToShoot), transform);
         bulletToShoot.transform.GetComponent<Rigidbody2D>().AddForce(-transform.up * bulletSpeed, ForceMode2D.Impulse);
         //bulletToShoot.transform.SetParent(null);
@@ -19,6 +21,7 @@ public class EmitterScript : MonoBehaviour
 
     public void Start()
     {
+        GetComponent<Animator>().runtimeAnimatorController = animOverride;
         StartCoroutine(ShootWait(shootDelay));
     }
 

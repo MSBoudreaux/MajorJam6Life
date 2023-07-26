@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46f41cb3b38c60a4dacf7bd252d4947f
+guid: 50d7cafc5aa9c9b4dbad0accc0375a32
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -49,7 +49,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heroSpriteSheet_0
+      name: hazardSheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
+        x: 1
+        y: 100
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eec8645fbb527840b09df950a8a7c6a
-      internalID: -202281624
+      spriteID: d47d0fd76681fb94fb75e94a10a294ee
+      internalID: -1777031475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heroSpriteSheet_1
+      name: hazardSheet_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 9
+        y: 100
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e9b8dd9fdcc44049b290fbf600e807d
-      internalID: -1826259975
+      spriteID: a67f832f089aa044db6351ff7540f65b
+      internalID: 1713439436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heroSpriteSheet_2
+      name: hazardSheet_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 24
+        y: 100
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,155 +161,218 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1d63b2d94c3a9d4ea2567ea5f4f0de2
-      internalID: 1673550792
+      spriteID: 5a6a2bcd4d58b08498840fc3f8a70bb4
+      internalID: -458801705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heroSpriteSheet_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d13cbe5734da3047b0e842450cd0b87
-      internalID: 2036174553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heroSpriteSheet_4
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 312ec1fc638675944b34dc5277361c6f
-      internalID: 1884970194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heroSpriteSheet_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa6070fa7c34d924eb4a48156406051b
-      internalID: 1003121316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heroSpriteSheet_6
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 111efb4dcfd84a542943f5b5cb98f96d
-      internalID: 37612815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heroSpriteSheet_7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 365eaf8eba27b2f4dbbb1ff7afdc66c2
-      internalID: 1844575991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heroSpriteSheet_8
+      name: hazardSheet_3
       rect:
         serializedVersion: 2
         x: 33
-        y: 17
-        width: 15
-        height: 15
+        y: 100
+        width: 8
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8e5831ce2a852841b3753f48140e52a
-      internalID: 2108202605
+      spriteID: 81faf6a47d045414c9fc508128975458
+      internalID: 1700416305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heroSpriteSheet_9
+      name: hazardSheet_4
       rect:
         serializedVersion: 2
-        x: 49
-        y: 17
-        width: 15
-        height: 15
+        x: 2
+        y: 77
+        width: 13
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a60a375b92048d46ad39ea923342c41
-      internalID: -504115012
+      spriteID: 781c2a933a3c63540a6c851aa26b18ec
+      internalID: -1250263054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazardSheet_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 77
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727181eedae6e094eb65dd8cafb35cd8
+      internalID: 7145754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazardSheet_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 77
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67952f08462df944db156c893777ea65
+      internalID: 506028368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazardSheet_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 77
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fbb2de813d84d4983ea4699bdf0e84
+      internalID: 1222561101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazardSheet_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 77
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a516d99f127a4bb4f9cd3cf0a97cd324
+      internalID: 639301618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazardSheet_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 77
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108a3641d21894f409d25feb27b47550
+      internalID: 573911682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazardSheet_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f0bb97c6c36d04397cc0255a9dcb74
+      internalID: -1092428463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazardSheet_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8522e93df2b05a847a8a0696c886f04e
+      internalID: -406354864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazardSheet_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 100
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09525344c634c946a3e0c753e6c991c
+      internalID: 933036800
       vertices: []
       indices: 
       edges: []
@@ -317,7 +380,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: cc2ad2e35a5ced840b32868157a8c6c0
+    spriteID: 1777f2d032ebce7439e30b608c5e6f0b
     internalID: 0
     vertices: []
     indices: 
@@ -325,16 +388,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      heroSpriteSheet_2: 1673550792
-      heroSpriteSheet_7: 1844575991
-      heroSpriteSheet_1: -1826259975
-      heroSpriteSheet_4: 1884970194
-      heroSpriteSheet_5: 1003121316
-      heroSpriteSheet_3: 2036174553
-      heroSpriteSheet_6: 37612815
-      heroSpriteSheet_9: -504115012
-      heroSpriteSheet_8: 2108202605
-      heroSpriteSheet_0: -202281624
+      hazardSheet_7: 1222561101
+      hazardSheet_12: 933036800
+      hazardSheet_10: -1092428463
+      hazardSheet_8: 639301618
+      hazardSheet_1: 1713439436
+      hazardSheet_2: -458801705
+      hazardSheet_3: 1700416305
+      hazardSheet_5: 7145754
+      hazardSheet_0: -1777031475
+      hazardSheet_11: -406354864
+      hazardSheet_6: 506028368
+      hazardSheet_4: -1250263054
+      hazardSheet_9: 573911682
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

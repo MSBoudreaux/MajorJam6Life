@@ -5,8 +5,11 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     public float lifespan;
+    public AnimatorOverrideController myAnim;
     private void Start()
     {
+        GetComponent<Animator>().runtimeAnimatorController = myAnim;
+        GetComponent<Animator>().SetTrigger("StartAnim");
         StartCoroutine(destroyAfterTime(lifespan));
     }
 
