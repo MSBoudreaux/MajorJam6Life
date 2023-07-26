@@ -5,15 +5,17 @@ using UnityEngine;
 [System.Serializable]
 public class MinigameTemplate
 {
-    public string goal;
+    public string title;
     public float duration;
     public GameObject minigamePrefab;
     public Goal myGoal;
+    public int startHealth;
 
     public enum Goal
     {
         Timed,
-        ReachEnd
+        ReachEnd,
+        Race
     }
 
 }

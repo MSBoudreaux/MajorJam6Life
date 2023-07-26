@@ -24,8 +24,7 @@ public class TriggerMinigame : MonoBehaviour
         if(IsTriggered == false)
         {
             myPlayer.SetState(FPSPlayerController.State.Minigame);
-            FindObjectOfType<MinigameManager>().StartMinigame(myGame);
-            IsTriggered = true;
+            FindObjectOfType<MinigameManager>().StartMinigame(myGame, this.GetComponent<TriggerMinigame>());
         }
         else
         {

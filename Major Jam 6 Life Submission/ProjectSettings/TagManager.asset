@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Interactable
+  - Button
+  - Hitbox
+  - 2DSpawn
+  - 2DObj
   layers:
   - Default
   - TransparentFX

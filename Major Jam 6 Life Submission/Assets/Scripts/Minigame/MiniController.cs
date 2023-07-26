@@ -68,19 +68,40 @@ public class MiniController : MonoBehaviour
     {
         if (collision.CompareTag("Hitbox"))
         {
-            myManager.currentHealth--;
-            if (myManager.currentHealth == 0)
+            if(myManager.currentHealth > 0)
             {
-                myManager.EndMinigame(false);
+                Debug.Log("got hit");
+                myManager.currentHealth--;
+                if (collision.GetComponent<BulletScript>())
+                {
+                    Destroy(collision.gameObject);
+                }
             }
+        }
+        else if (collision.CompareTag("Button"))
+        {
+            Debug.Log("pressed button");
+            collision.transform.GetComponent<ButtonScript>().TriggerButton(false);
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Finish") && myManager.currentGame.myGoal == MinigameTemplate.Goal.ReachEnd)
+        if (collision.gameObject.CompareTag("Finish") && (myManager.currentGame.myGoal == MinigameTemplate.Goal.ReachEnd || myManager.currentGame.myGoal == MinigameTemplate.Goal.Race))
         {
             myManager.EndMinigame(true);
+        }
+        else if (collision.transform.CompareTag("Hitbox"))
+        {
+            if (myManager.currentHealth > 0)
+            {
+                Debug.Log("got hit");
+                myManager.currentHealth--;
+                if (collision.transform.GetComponent<BulletScript>())
+                {
+                    Destroy(collision.gameObject);
+                }
+            }
         }
     }
 
