@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1156848512595060795}
   m_Layer: 5
   m_Name: ObjTemplate
-  m_TagString: Finish
+  m_TagString: 2DObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

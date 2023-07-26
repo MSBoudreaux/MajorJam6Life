@@ -6,8 +6,8 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WizardAnimator
+  m_Name: ArcherAnimator
   m_Controller: {fileID: 9100000, guid: 28e2128810cd90c4b84c0998ab1e5b25, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: bb1541c981af76944b3d4661d9e53fd1, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 20c9e251b58ab13478f04e2078a17615, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 59e9f57e1fbf7f5419b82ab518097459, type: 2}

@@ -98,6 +98,11 @@ public class MiniController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.GetComponent<Animator>())
+        {
+            collision.gameObject.GetComponent<Animator>().SetTrigger("TriggerAnim");
+        }
+
         if (collision.gameObject.CompareTag("Finish") && (myManager.currentGame.myGoal == MinigameTemplate.Goal.ReachEnd || myManager.currentGame.myGoal == MinigameTemplate.Goal.Race))
         {
             myManager.EndMinigame(true);

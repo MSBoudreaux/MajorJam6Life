@@ -9,6 +9,7 @@ TagManager:
   - Hitbox
   - 2DSpawn
   - 2DObj
+  - 2DObjAnim
   layers:
   - Default
   - TransparentFX

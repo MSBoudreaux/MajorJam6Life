@@ -6,7 +6,7 @@ public class EmitterScript : MonoBehaviour
 {
     public GameObject bullet;
     GameObject bulletToShoot;
-    public float angleToShoot;
+    public Vector3 angleToShoot;
     public float bulletSpeed;
     public float shootDelay;
     public Transform emitter;
@@ -14,9 +14,11 @@ public class EmitterScript : MonoBehaviour
     public void Shoot()
     {
         GetComponent<Animator>().SetTrigger("ShootEvent");
-        GameObject bulletToShoot = Instantiate(bullet, emitter.position, Quaternion.Euler(0, 0, angleToShoot), transform);
-        bulletToShoot.transform.GetComponent<Rigidbody2D>().AddForce(-transform.up * bulletSpeed, ForceMode2D.Impulse);
+        angleToShoot = Vector3.Normalize(emitter.position - transform.position);
+        GameObject bulletToShoot = Instantiate(bullet, emitter.position, Quaternion.Euler(angleToShoot), transform);
         //bulletToShoot.transform.SetParent(null);
+        bulletToShoot.transform.GetComponent<Rigidbody2D>().AddForce(angleToShoot * bulletSpeed, ForceMode2D.Impulse);
+        
     }
 
     public void Start()
