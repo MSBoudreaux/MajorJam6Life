@@ -665,6 +665,218 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0ee2d3c440a940b00086409c24295, type: 3}
+--- !u!1001 &612422564243777672
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7953627775190999529, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_Name
+      value: Miner Mork
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].Name
+      value: Miner Mork
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: myDialogue.Array.data[1].Name
+      value: Miner Mork
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[0].Name
+      value: Miner Mork
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[1].Name
+      value: Miner Mork
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.data[0]
+      value: Hoy there! You look pretty fire-resistant!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.data[1]
+      value: I've got some mining equipment up in the mountains, but this weird old
+        man's made 'em shoot fireballs!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.data[2]
+      value: I need someone to monitor the equipment so I can set off demolition
+        charges and knock down those mountains.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.data[3]
+      value: Get in there, and mind that old geezer!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: myDialogue.Array.data[1].sentences.Array.data[0]
+      value: Watch the fireballs! They're bad for your health.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[0].sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[0].sentences.Array.data[0]
+      value: Ack! Good job with the mountains lad, but the bloody cliffs went and
+        fell right on top of me!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[0].sentences.Array.data[1]
+      value: I'll be fine, but I'd have hoped not to dig myself out the ground today.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999531, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[1].sentences.Array.data[0]
+      value: I'm fine under here, look, just... don't mention this to anyone. They'll
+        laugh.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953627775190999532, guid: 42e394bd5b6d45145be0b8a9c3d18a6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 42e394bd5b6d45145be0b8a9c3d18a6a, type: 3}
+--- !u!1001 &619283043677176366
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5784721973743387337, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_Name
+      value: Guard Gatsby 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784721973743387340, guid: 285dcfe12ab970441add49e51197e8bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 285dcfe12ab970441add49e51197e8bc, type: 3}
 --- !u!1001 &4102921972675871506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -824,6 +1036,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02213ee236788da4481841666228f4fc, type: 3}
+--- !u!1001 &6033104659600118581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451795, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054111329834451798, guid: f80cb92e38f41ca44acd792b186ca8b3,
+        type: 3}
+      propertyPath: m_Name
+      value: Radical Randy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f80cb92e38f41ca44acd792b186ca8b3, type: 3}
 --- !u!1001 &6548952728058189020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -914,6 +1195,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
         type: 3}
+      propertyPath: myDialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
+        type: 3}
       propertyPath: myDialogue.Array.data[0].Name
       value: Wizard Willoughby
       objectReference: {fileID: 0}
@@ -935,12 +1221,12 @@ PrefabInstance:
     - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
         type: 3}
       propertyPath: myDialogue.Array.data[0].sentences.Array.size
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
         type: 3}
       propertyPath: myDialogue.Array.data[1].sentences.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
         type: 3}
@@ -974,17 +1260,32 @@ PrefabInstance:
     - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
         type: 3}
       propertyPath: myDialogue.Array.data[1].sentences.Array.data[0]
-      value: Had to retreat, huh? I can tell, you look like a novelty pincushion!
+      value: Make sure you mind the bandits! They've been getting uppity lately.
       objectReference: {fileID: 0}
     - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
         type: 3}
       propertyPath: myDialogue.Array.data[1].sentences.Array.data[1]
-      value: 'Let me give you some advice: look ahead before you go!'
+      value: Make sure you mind the bandits! They've been getting uppity lately.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
+        type: 3}
+      propertyPath: myDialogue.Array.data[1].sentences.Array.data[2]
+      value: Make sure you mind the bandits! They've been getting uppity lately.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
+        type: 3}
+      propertyPath: myDialogue.Array.data[1].sentences.Array.data[3]
+      value: Make sure you mind the bandits! They've been getting uppity lately.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
+        type: 3}
+      propertyPath: myDialogue.Array.data[1].sentences.Array.data[4]
+      value: Make sure you mind the bandits! They've been getting uppity lately.
       objectReference: {fileID: 0}
     - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
         type: 3}
       propertyPath: mySecondDialogue.Array.data[0].sentences.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6548952726482129887, guid: 2ee41798235f5e34e9a9855b2cd32c08,
         type: 3}
@@ -1020,6 +1321,173 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee41798235f5e34e9a9855b2cd32c08, type: 3}
+--- !u!1001 &8259008933633310154
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581490, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581492, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myGame.title
+      value: Defeat the Dragon!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581492, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myGame.myGoal
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581492, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myGame.duration
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581492, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myGame.minigamePrefab
+      value: 
+      objectReference: {fileID: 8442241326336630090, guid: 89cdd3451ffe69245a2467779f93371c,
+        type: 3}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.data[0]
+      value: Halt! Who goes there-ah, you, little hero! Welcome to my lair!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.data[1]
+      value: I have followed your exploits with great interest. You have terrorized
+        the world, and spread discord and misfortune.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.data[2]
+      value: And finally, I have found what I sought for so long!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.data[3]
+      value: A fellow villain, to rule the land with!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myDialogue.Array.data[0].sentences.Array.data[4]
+      value: Come, and claim my treasure to prove your worth, before the heat takes
+        you!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: myDialogue.Array.data[1].sentences.Array.data[0]
+      value: Once more, puny hero! Were the champions below so easy to defeat all
+        along? You will never deactivate my traps!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[0].sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[0].sentences.Array.data[0]
+      value: "Oh, I can't believe this! I didn't expect you to actually TAKE the
+        treasure!\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[0].sentences.Array.data[1]
+      value: We were going to form a dark alliance and rule the land, and you j-just
+        stole my stuff! I was so excited, too...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[0].sentences.Array.data[2]
+      value: All those people down there must really be having a rotten day, having
+        just met YOU!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[0].sentences.Array.data[3]
+      value: Your "I'll save the day!" schtick is frustrating, when all you want
+        do is mess things up!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[0].sentences.Array.data[4]
+      value: You are JUST THE WORST!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581493, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: mySecondDialogue.Array.data[1].sentences.Array.data[0]
+      value: Why do I even bother trying to make friends...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694014182464581495, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f,
+        type: 3}
+      propertyPath: m_Name
+      value: The Dragon, Grondell
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c3cb647ed0ba8f4d97bf4bd0cc5cc8f, type: 3}
 --- !u!1001 &8507611565376200538
 PrefabInstance:
   m_ObjectHideFlags: 0

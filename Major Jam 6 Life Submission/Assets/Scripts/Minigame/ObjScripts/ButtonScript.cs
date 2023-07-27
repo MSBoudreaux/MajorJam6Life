@@ -21,7 +21,7 @@ public class ButtonScript : MonoBehaviour
         {
             foreach(GameObject target in targetList)
             {
-                if (target.CompareTag("Button"))
+                if (target.CompareTag("Button") && target.activeSelf)
                 {
                     target.GetComponent<ButtonScript>().isPressed = !target.GetComponent<ButtonScript>().isPressed;
                     target.GetComponent<ButtonScript>().TriggerButton(true);

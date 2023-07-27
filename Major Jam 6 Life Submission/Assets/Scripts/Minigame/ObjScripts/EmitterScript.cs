@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.UI;
 
 public class EmitterScript : MonoBehaviour
 {
@@ -15,7 +16,11 @@ public class EmitterScript : MonoBehaviour
     public float timeOffset; // best set to half of shootDelay
     public void Shoot()
     {
-        GetComponent<Animator>().SetTrigger("ShootEvent");
+        if (GetComponent<Animator>())
+        {
+            GetComponent<Animator>().SetTrigger("ShootEvent");
+        }
+
         angleToShoot = Vector3.Normalize(emitter.position - transform.position);
         GameObject bulletToShoot = Instantiate(bullet, emitter.position, Quaternion.Euler(angleToShoot), transform);
         bulletToShoot.GetComponent<RectTransform>().SetPositionAndRotation(bulletToShoot.GetComponent<RectTransform>().position,Quaternion.Euler(new Vector3(angleToShoot.x, angleToShoot.y, angleToShoot.z * -90)));
@@ -26,8 +31,16 @@ public class EmitterScript : MonoBehaviour
 
     public void Start()
     {
-        GetComponent<Animator>().runtimeAnimatorController = animOverride;
-        StartCoroutine(Offset(timeOffset));
+        if (!GetComponent<Animator>())
+        {
+            StartCoroutine(Offset(timeOffset));
+        }
+        else
+        {
+            GetComponent<Animator>().runtimeAnimatorController = animOverride;
+            StartCoroutine(Offset(timeOffset));
+        }
+
     }
 
     IEnumerator Offset(float time)

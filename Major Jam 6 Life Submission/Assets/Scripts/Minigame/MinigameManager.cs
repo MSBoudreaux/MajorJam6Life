@@ -41,6 +41,7 @@ public class MinigameManager : MonoBehaviour
         playerObj.transform.localPosition = GameObject.FindGameObjectWithTag("2DSpawn").transform.localPosition;
 
         levelTitle.text = currentGame.title;
+        timer = 0;
 
 
         FindObjectOfType<MiniController>().SetState2D(MiniController.miniState.Movement);
