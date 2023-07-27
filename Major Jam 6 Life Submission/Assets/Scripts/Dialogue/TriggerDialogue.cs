@@ -6,12 +6,35 @@ public class TriggerDialogue : MonoBehaviour
 {
     int index = 0;
     public Dialogue[] myDialogue;
+    public Dialogue[] mySecondDialogue;
+    public TriggerMinigame myTrigger;
     public bool isAutoRead; //in case a trigger causes this dialogue to scroll automatically
+    public bool hasResetIndex;
 
+    public void Start()
+    {
+        myTrigger = GetComponent<TriggerMinigame>();
+    }
     public void DialogueTrigger()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(myDialogue[index], this.gameObject);
-        if(index < myDialogue.Length - 1)
+        Dialogue[] dialogueToRead;
+        if (myTrigger != null)
+        {
+            if (myTrigger.IsTriggered)
+            {
+                dialogueToRead = mySecondDialogue;
+                if (!hasResetIndex)
+                {
+                    index = 0;
+                    hasResetIndex = true;
+                }
+            }
+            else dialogueToRead = myDialogue;
+        }
+        else dialogueToRead = myDialogue;
+
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogueToRead[index], gameObject);
+        if(index < dialogueToRead.Length - 1)
         {
             index++;
         }

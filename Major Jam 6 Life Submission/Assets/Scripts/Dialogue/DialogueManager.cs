@@ -24,9 +24,9 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue myDialogue, GameObject inObj)
     {
-        Debug.Log("Trigger dialogue: " + myDialogue.dName);
+        Debug.Log("Trigger dialogue: " + myDialogue.Name);
 
-        nameText.text = myDialogue.dName;
+        nameText.text = myDialogue.Name;
 
         sentences.Clear();
         foreach(string sentence in myDialogue.sentences)

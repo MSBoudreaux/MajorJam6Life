@@ -8,8 +8,12 @@ public class BulletScript : MonoBehaviour
     public AnimatorOverrideController myAnim;
     private void Start()
     {
-        GetComponent<Animator>().runtimeAnimatorController = myAnim;
-        GetComponent<Animator>().SetTrigger("StartAnim");
+        if(myAnim != null)
+        {
+            GetComponent<Animator>().runtimeAnimatorController = myAnim;
+            GetComponent<Animator>().SetTrigger("StartAnim");
+        }
+
         StartCoroutine(destroyAfterTime(lifespan));
     }
 
