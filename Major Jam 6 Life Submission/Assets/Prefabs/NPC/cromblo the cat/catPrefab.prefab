@@ -10,10 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 5951173832742571178}
   - component: {fileID: 5951173832742571173}
-  - component: {fileID: 5951173832742571172}
+  - component: {fileID: 739126750560763130}
+  - component: {fileID: 6648189625815043402}
+  - component: {fileID: 7925309152915507098}
   m_Layer: 0
   m_Name: catPrefab
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5951173832742571175}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8, y: 0.24, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,7 +87,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5951173832742571172
+--- !u!65 &739126750560763130
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5951173832742571175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 0.25, z: 0.2}
+  m_Center: {x: -0.0000038146973, y: 0, z: 0}
+--- !u!114 &6648189625815043402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5951173832742571175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd0deb0ed2464045b78974f211f95d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myDialogue:
+  - sentences:
+    - '*mrrrp''s congratulatorily!*'
+    - '*prrrr''s inquisitively?*'
+    - '*grooms self sagely.*'
+    - '*mrow''s encouragingly.*'
+    Name: cromblo the cat
+  - sentences:
+    - He looks busy, but you're glad you got to chat with him.
+    Name: 
+  mySecondDialogue: []
+  myTrigger: {fileID: 0}
+  isAutoRead: 0
+  hasResetIndex: 0
+--- !u!95 &7925309152915507098
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0

@@ -1557,7 +1557,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 1.5
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -1582,7 +1582,7 @@ MonoBehaviour:
   speed: 6
   myCam: {fileID: 4102921973499862477}
   gravity: -9.81
-  jumpHeight: 3
+  jumpHeight: 2.5
   height: 1
   groundCheck: {fileID: 4102921973415611951}
   groundDistance: 0.3
@@ -1854,7 +1854,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2
+  m_Height: 1.5
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8543204919196936210
