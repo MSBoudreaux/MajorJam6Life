@@ -259,6 +259,8 @@ MonoBehaviour:
     Name: Guard Gatsby, Again
   - sentences:
     - 'Oh no! You''re not getting past me again, buddy! '
+    - Plus, there's no way you'll figure out the Wizard Police's patented Get Em!
+      firing patterns!
     Name: Guard Gatsby, Again
   mySecondDialogue:
   - sentences:
@@ -276,6 +278,7 @@ MonoBehaviour:
   myTrigger: {fileID: 0}
   isAutoRead: 0
   hasResetIndex: 0
+  IsIntroTrigger: 0
 --- !u!114 &5784721973743387338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,7 +293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myGame:
     title: Evade The Wizard Police!
-    duration: 15
+    duration: 20
     minigamePrefab: {fileID: 165473271059085047, guid: 6620c13346385364b9752619a4f672cf,
       type: 3}
     myGoal: 0

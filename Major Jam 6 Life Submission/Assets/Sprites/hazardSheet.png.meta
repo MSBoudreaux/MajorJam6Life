@@ -377,6 +377,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: hazardSheet_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 100
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94753453de41be4da0cf594b13568db
+      internalID: -54675054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazardSheet_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 102
+        width: 8
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249577c97b781ff4f9a9d3c3a72ee79b
+      internalID: -1075495580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazardSheet_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 102
+        width: 8
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cbcf3f56973f44e9495070646589fb
+      internalID: -1469777609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -390,6 +453,8 @@ TextureImporter:
     nameFileIdTable:
       hazardSheet_7: 1222561101
       hazardSheet_12: 933036800
+      hazardSheet_15: -1075495580
+      hazardSheet_13: -1469777609
       hazardSheet_10: -1092428463
       hazardSheet_8: 639301618
       hazardSheet_1: 1713439436
@@ -401,6 +466,7 @@ TextureImporter:
       hazardSheet_6: 506028368
       hazardSheet_4: -1250263054
       hazardSheet_9: 573911682
+      hazardSheet_14: -54675054
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

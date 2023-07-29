@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI popupText;
+    public GameObject background;
     public GameObject myTrigger;
     public float waitTime = 4f;
 
@@ -24,6 +25,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue myDialogue, GameObject inObj)
     {
+        background.SetActive(true);
         Debug.Log("Trigger dialogue: " + myDialogue.Name);
 
         nameText.text = myDialogue.Name;
@@ -54,6 +56,9 @@ public class DialogueManager : MonoBehaviour
     {
         TriggerMinigame inGame = myTrigger.GetComponent<TriggerMinigame>();
         Debug.Log("done talking");
+        if (myTrigger.GetComponent<TriggerDialogue>().IsIntroTrigger){
+            FindObjectOfType<FPSPlayerController>().SetState(FPSPlayerController.State.FreeMovement);
+        }
         if (inGame != null && inGame.IsTriggered == false)
         {
             inGame.MinigameTrigger(inGame.myGame);
@@ -68,6 +73,7 @@ public class DialogueManager : MonoBehaviour
 
         nameText.text = null;
         dialogueText.text = null;
+        background.SetActive(false);
 
     }
 

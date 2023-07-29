@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FPSPlayerController : MonoBehaviour
 {
@@ -11,7 +12,8 @@ public class FPSPlayerController : MonoBehaviour
         Talking,
         Menu,
         Cutscene,
-        Minigame
+        Minigame,
+        EndGame
     }
 
     public State myState;
@@ -35,9 +37,16 @@ public class FPSPlayerController : MonoBehaviour
 
     public GameObject pauseMenu;
 
+    public TriggerDialogue myIntroTrigger;
+
+    public Animator myCutsceneAnim;
+
+    public GameObject endScreen;
+
     void Start()
     {
-        
+        myState = State.Cutscene;
+        myIntroTrigger.DialogueTrigger();
     }
 
     void Update()
@@ -102,6 +111,10 @@ public class FPSPlayerController : MonoBehaviour
                 break;
 
             case State.Menu:
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    Application.Quit();
+                }
                 if (Input.GetKeyDown(KeyCode.Escape))
                 {
                     Cursor.lockState = CursorLockMode.Locked;
@@ -110,6 +123,23 @@ public class FPSPlayerController : MonoBehaviour
                     pauseMenu.SetActive(false);
                 }
                 break;
+
+            case State.Cutscene:
+                if (Input.GetKeyDown("e"))
+                {
+                    Debug.Log("Display next sentence.");
+                    FindObjectOfType<DialogueManager>().DisplayNextSentence();
+                }
+                return;
+
+            case State.EndGame:
+                {
+                    if (Input.GetKeyDown("escape"))
+                    {
+                        Application.Quit();
+                    }
+                    return;
+                }
         }
 
     }
@@ -141,6 +171,18 @@ public class FPSPlayerController : MonoBehaviour
     public static State getState()
     {
         return FindObjectOfType<FPSPlayerController>().myState;
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.CompareTag("GameFinish"))
+        {
+            SetState(State.EndGame);
+            endScreen.SetActive(true);
+            myCutsceneAnim.SetTrigger("EndGame");
+            Debug.Log("Game Win!");
+
+        }
     }
 
 

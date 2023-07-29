@@ -10,6 +10,7 @@ public class TriggerDialogue : MonoBehaviour
     public TriggerMinigame myTrigger;
     public bool isAutoRead; //in case a trigger causes this dialogue to scroll automatically
     public bool hasResetIndex;
+    public bool IsIntroTrigger;
 
     public void Start()
     {

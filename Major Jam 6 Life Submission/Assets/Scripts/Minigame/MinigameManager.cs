@@ -122,13 +122,13 @@ public class MinigameManager : MonoBehaviour
                 EndMinigame(win);
             }
 
-            displayHealth.text = currentHealth.ToString();
+            displayHealth.text = "Health: " + currentHealth.ToString();
             if (currentGame.duration - timer > 0)
             {
                 float currentTime = currentGame.duration - timer;
-                displayTime.text = Math.Round(currentTime, 1).ToString();
+                displayTime.text = "Time: " + Math.Round(currentTime, 1).ToString();
             }
-            else displayTime.text = "0";
+            else displayTime.text = "Time: 0";
 
             if (crRunning && currentGame.myGoal != MinigameTemplate.Goal.ReachEnd)
             {

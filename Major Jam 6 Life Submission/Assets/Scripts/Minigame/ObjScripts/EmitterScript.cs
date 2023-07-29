@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Unity.UI;
+
 
 public class EmitterScript : MonoBehaviour
 {
@@ -14,11 +14,20 @@ public class EmitterScript : MonoBehaviour
     public Transform emitter;
     public AnimatorOverrideController animOverride;
     public float timeOffset; // best set to half of shootDelay
+
+
+    public bool shootTrigger;
     public void Shoot()
     {
+        shootTrigger = false;
         if (GetComponent<Animator>())
         {
             GetComponent<Animator>().SetTrigger("ShootEvent");
+        }
+        if (!shootTrigger && GetComponent<AudioSource>())
+        {
+            GetComponent<AudioSource>().Play();
+            shootTrigger = true;
         }
 
         angleToShoot = Vector3.Normalize(emitter.position - transform.position);

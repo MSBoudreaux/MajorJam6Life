@@ -169,6 +169,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}
       propertyPath: m_Name
@@ -308,6 +313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: timeOffset
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}
@@ -449,6 +459,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}
       propertyPath: m_Name
@@ -588,6 +603,11 @@ PrefabInstance:
         type: 3}
       propertyPath: timeOffset
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}
@@ -729,6 +749,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}
       propertyPath: m_Name
@@ -869,6 +894,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}
       propertyPath: m_Name
@@ -1003,6 +1033,11 @@ PrefabInstance:
         type: 3}
       propertyPath: bulletLife
       value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}
@@ -1144,6 +1179,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}
       propertyPath: m_Name
@@ -1283,6 +1323,11 @@ PrefabInstance:
         type: 3}
       propertyPath: timeOffset
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}
@@ -1424,6 +1469,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}
       propertyPath: m_Name
@@ -1563,6 +1613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: timeOffset
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 231879735564868678, guid: c7562e0dfaf82694d8031662b78d5f3a,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 799240831624827492, guid: c7562e0dfaf82694d8031662b78d5f3a,
         type: 3}

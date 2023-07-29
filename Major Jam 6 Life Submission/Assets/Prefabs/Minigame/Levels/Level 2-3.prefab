@@ -179,6 +179,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -329,6 +334,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -474,6 +484,11 @@ PrefabInstance:
       propertyPath: shootDelay
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -618,6 +633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: timeOffset
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
@@ -890,6 +910,11 @@ PrefabInstance:
       propertyPath: shootDelay
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1029,6 +1054,11 @@ PrefabInstance:
         type: 3}
       propertyPath: shootDelay
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
@@ -1175,6 +1205,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1319,6 +1354,11 @@ PrefabInstance:
         type: 3}
       propertyPath: timeOffset
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
@@ -1470,6 +1510,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1620,6 +1665,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1764,6 +1814,11 @@ PrefabInstance:
         type: 3}
       propertyPath: shootDelay
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
@@ -2040,6 +2095,11 @@ PrefabInstance:
         type: 3}
       propertyPath: timeOffset
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}

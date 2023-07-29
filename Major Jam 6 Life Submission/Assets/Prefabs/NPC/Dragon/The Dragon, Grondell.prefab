@@ -74,10 +74,12 @@ MonoBehaviour:
     Name: The Dragon, Grondell
   - sentences:
     - Why do I even bother trying to make friends...
+    - Go on, just get out of here already!
     Name: The Dragon, Grondell
   myTrigger: {fileID: 0}
   isAutoRead: 0
   hasResetIndex: 0
+  IsIntroTrigger: 0
 --- !u!114 &1694014182464581492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,7 +101,8 @@ MonoBehaviour:
     startHealth: 3
   IsTriggered: 0
   myAnim: {fileID: 5072368032255531362}
-  finishTriggerList: []
+  finishTriggerList:
+  - {fileID: 0}
 --- !u!95 &5072368032255531362
 Animator:
   serializedVersion: 4

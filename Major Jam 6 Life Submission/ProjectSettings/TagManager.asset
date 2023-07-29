@@ -10,6 +10,7 @@ TagManager:
   - 2DSpawn
   - 2DObj
   - 2DObjAnim
+  - GameFinish
   layers:
   - Default
   - TransparentFX

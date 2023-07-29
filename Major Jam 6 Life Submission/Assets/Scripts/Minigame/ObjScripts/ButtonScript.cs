@@ -11,6 +11,7 @@ public class ButtonScript : MonoBehaviour
     public Sprite upSprite;
     public Sprite downSprite;
 
+    public AudioSource myAudio;
     public void TriggerButton(bool isFromTrigger)
     {
         if (isPressed)
@@ -19,6 +20,7 @@ public class ButtonScript : MonoBehaviour
         }
         else
         {
+            
             foreach(GameObject target in targetList)
             {
                 if (target.CompareTag("Button") && target.activeSelf)
@@ -36,6 +38,8 @@ public class ButtonScript : MonoBehaviour
         //DO NOT MAKE A BUTTON TRIGGER ITSELF PLEASE NEVER DO THIS I WILL COME TO YOUR HOUSE WHICH IS MY HOUSE AND HIT YOU WITH MY
         if (!isFromTrigger)
         {
+            isPressed = false;
+            myAudio.Play();
             isPressed = true;
         }
 

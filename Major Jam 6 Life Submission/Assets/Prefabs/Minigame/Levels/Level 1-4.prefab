@@ -1120,8 +1120,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5053257756935012258, guid: c3b5075c8a869f041882e88743254553,
         type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 680263581343356013, guid: dae96d3f51fa37b45ba5a39bf51c72f2,
+        type: 3}
+    - target: {fileID: 5053257756935012258, guid: c3b5075c8a869f041882e88743254553,
+        type: 3}
       propertyPath: bulletLife
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053257756935012258, guid: c3b5075c8a869f041882e88743254553,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5366258579497314169, guid: c3b5075c8a869f041882e88743254553,
         type: 3}
@@ -2169,8 +2180,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5053257756935012258, guid: c3b5075c8a869f041882e88743254553,
         type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 680263581343356013, guid: dae96d3f51fa37b45ba5a39bf51c72f2,
+        type: 3}
+    - target: {fileID: 5053257756935012258, guid: c3b5075c8a869f041882e88743254553,
+        type: 3}
       propertyPath: bulletLife
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053257756935012258, guid: c3b5075c8a869f041882e88743254553,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5366258579497314169, guid: c3b5075c8a869f041882e88743254553,
         type: 3}
@@ -3544,6 +3566,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5053257756935012258, guid: c3b5075c8a869f041882e88743254553,
         type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 3410456315141705357, guid: 2fc4160691514434da3e46fea3929ffa,
+        type: 3}
+    - target: {fileID: 5053257756935012258, guid: c3b5075c8a869f041882e88743254553,
+        type: 3}
       propertyPath: bulletLife
       value: 1.5
       objectReference: {fileID: 0}
@@ -3551,6 +3579,11 @@ PrefabInstance:
         type: 3}
       propertyPath: timeOffset
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053257756935012258, guid: c3b5075c8a869f041882e88743254553,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5366258579497314169, guid: c3b5075c8a869f041882e88743254553,
         type: 3}

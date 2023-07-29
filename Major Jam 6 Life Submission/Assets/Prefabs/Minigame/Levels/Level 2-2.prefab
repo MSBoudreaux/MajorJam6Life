@@ -565,6 +565,11 @@ PrefabInstance:
       propertyPath: timeOffset
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1736863689207923790, guid: d5b878e7d767528409aff22c9c190643,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5b878e7d767528409aff22c9c190643, type: 3}
 --- !u!224 &538714294530434729 stripped
@@ -1243,7 +1248,17 @@ PrefabInstance:
     - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
       propertyPath: shootDelay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: timeOffset
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506432985609537691, guid: f04e23cd83ad8d243b72ff03b033bcdd,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1783403765579993152, guid: f04e23cd83ad8d243b72ff03b033bcdd,
         type: 3}
@@ -1761,6 +1776,11 @@ PrefabInstance:
         type: 3}
       propertyPath: bulletLife
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736863689207923790, guid: d5b878e7d767528409aff22c9c190643,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5b878e7d767528409aff22c9c190643, type: 3}
@@ -2288,6 +2308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: bulletLife
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736863689207923790, guid: d5b878e7d767528409aff22c9c190643,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5b878e7d767528409aff22c9c190643, type: 3}
